@@ -1,8 +1,9 @@
-div{
-    border: none;
+html{
+    margin: 0;
+    min-height: 100%;
 }
 body {
-    padding: 0;
+    margin: 0;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .header{
@@ -14,21 +15,25 @@ body {
 .hed3{
     font-size: 24px;
     color: #F9FAF8;
+
 }
 .linkhed{
     text-decoration: none;
     color: #F9FAF8;
+
 }
 .hedlinks{
     display: flex;
     gap: 70px;
     align-items: center;
+
     
 }
 .headlink{
     font-size: 18px;
     color: #E5E7EB;
     text-decoration: none;
+
 }
 .content{
     background-color: #1f2937;
@@ -36,11 +41,13 @@ body {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+
 }
 .headinfo{
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
+
 }
 .signupone{
     background-color: #3882F6 ;
@@ -52,6 +59,7 @@ body {
     text-align: center;
     padding: 5px;
     text-decoration: none;
+
 }
 button{
  border: none;
@@ -61,21 +69,26 @@ button{
     font-size: 48px;
     font-weight: bold;
     color: #F9FAF8;
+
 }
 .contentinfo{
     color: #E5E7EB ;
     font-size: 18px;
+
 }
 #firstimg{
-    width: 340px;
-    height: 170px;
+    width: 35vw;
+    height: auto;
     margin-bottom: 20px;
+    margin-right: 15px;
+
 }
 
 .info{
     display: flex;
     align-items: center;
     flex-direction: column;
+
 
 }
 .rndm{
@@ -84,22 +97,26 @@ button{
     font-size: 36px;
     font-weight: bold;
     color: #1f2937;
+
 }
 .secondimg{
-    width: 150px;
-    height: 150px;
+    width: 10vw;
+    height: 10vw;
     border: solid #3882F6 3px;
     border-radius: 15px;
+
 }
 .bodyimages{
     display: flex;
     align-items: center;
     gap: 10px;
+
 }
 figcaption{
     font-size: 12px;
     color: #b7b7b7;
     text-align: center;
+
 }
 .quote{
     display: flex;
@@ -111,17 +128,18 @@ figcaption{
     background-color: #E5E7EB;
     justify-content: space-around;
 
-
 }
 .quotetext{
     display: flex;
     align-items: center;
+
 }
 .action{
     display: flex;
     align-items: center;
     justify-content: center;
     padding-top: 30px;
+
 }
 .bluebox{
     display: flex;
@@ -130,6 +148,7 @@ figcaption{
     border-radius: 8px;
     justify-content: space-around;
     width: 700px;
+
 }
 .signuptwo{
     background-color: #3882F6 ;
@@ -145,18 +164,22 @@ figcaption{
     margin-top: 40px;
     margin-right: 5px;
     margin-bottom: 10px;
+
 }
 .callto{
     color: white ;
     margin-left: 10px;
 
+
 }
 .actionhed{
     font-size: medium;
+
 }
 .paction{
     font-size:x-small;
     margin-right: 15px;
+
 }
 .footer{
     display:flex;
@@ -165,8 +188,10 @@ figcaption{
     flex-direction: column;
     justify-content: center;
     margin-top: 30px;
+
 }
 .copy{
     color: #b7b7b7;
     font-size: xx-small;
+
 }
